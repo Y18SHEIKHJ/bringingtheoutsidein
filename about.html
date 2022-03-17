@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="Stockport.html">Stockport</a>
+      <a href="contact.html">contact</a>
+      <a href="about.html" class="active">About Us</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <div style="padding-left:16px">
+    </div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+</body>
+<body>
+
+<!---- about us content ---->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1 style="color: darkblue;">Hubbub</h1>
+            <p style="color: darkblue;">We are an environmental charity with a difference. 
+            Our purpose is to inspire ways of living that are good for the environment. We 
+            do this by designing campaigns that make environmental actions desirable. We 
+            disrupt the status quo to raise awareness, nudge behaviours and shape systems. 
+            We do this with knowledge and playfulness, and we will not make you feel bad. 
+            Design By Nature, brought to you by Hubbub, is an initiative that challenges 
+            students to find new ways to tackle environmental issues affecting our day-to-day 
+            lives. We celebrate innovation, creativity, disruptive thinking, collaboration and 
+            insight-led ideas that make sustainable living second nature.
+            <a href="https://www.hubbub.org.uk/?gclid=Cj0KCQiAxc6PBhCEARIsAH8Hff2svaIByzg_7-yylZxAX82fkqxLbEkSXl55DtBObvZmnyZaoElW6OMaAs2GEALw_wcB"></a>  </p>
+        </div>
+       
+        </div>
+    <img src="Images/about.jpg" alt="Flower" style="width:auto;height:500px;">
+</section>
+
+<!-- --- Footer --------->
+
+<section class="footer">
+    <div class="icons">
+        <a target="_blank" href="https://www.facebook.com/HubbubUK" class="fa fa-facebook"></a>
+        <a target="_blank" href="https://twitter.com/Hubbubuk" class="fa fa-twitter"></a>
+        <a target="_blank" href="https://www.instagram.com/hellohubbub/" class="fa fa-instagram"></a>
+    </div>
+</section>
+
+<!-------JavaScript for Toggle Menu---- -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        nanLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</HTML>
