@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Contact page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="Stockport.html">Stockport</a>
+      <a href="Contact.html" class="active">Contact</a>
+      <a href="about.html">About Us</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <div style="padding-left:16px">
+    </div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+</body>
+<body>
+
+<!---- Contact Us ---->
+
+<section class="Location">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76091.2260694901!2d-2.219101468419651!3d53.41749416290011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a3515ca33c427%3A0xf418f67b823efe48!2sStockport!5e0!3m2!1sen!2suk!4v1642668873574!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="Contact-us">
+
+<div class="row">
+<div class="contact-col">
+    <div>
+        <i class="fa fa-home"></i>
+        <span>
+            <h5>Somerset House<br>
+              The Strand, London</h5>
+              WC2R 1LA
+        </span>
+    </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>020 3701 7543</h5>
+                <p>Monday-Saturday 9am-5:30pm
+                   Sunday 9am-4:30pm</p>
+            </span>
+        </div>
+</div>
+<div class="contact-col">
+
+    <form action="form handler.php" method="post">
+        <inout type="text" name="name" placeholder="Enter your name" required></input>
+        <input type="email" name="email" placeholder="Enter your email address" required></input>
+        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Sent Message</button>    
+    
+    
+    </form>
+
+
+
+
+
+</div>
+</div>
+
+</section>
+
+
+
+<!-- --- Footer --------->
+
+<section class="footer">
+  <h4>About Us</h4>
+<div class="icons">
+  <a target="_blank" href="https://www.facebook.com/HubbubUK" class="fa fa-facebook"></a>
+  <a target="_blank" href="https://twitter.com/Hubbubuk" class="fa fa-twitter"></a>
+  <a target="_blank" href="https://www.instagram.com/hellohubbub/" class="fa fa-instagram"></a>
+</div>
+</section>
+
+<!-------JavaScript for Toggle Menu---- -->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+navLinks.style.right = "0";
+}
+function hideMenu(){
+nanLinks.style.right = "-200px";
+}
+</script>
+</body>
+</HTML>
